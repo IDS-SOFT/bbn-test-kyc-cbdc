@@ -1,4 +1,4 @@
-# Deploying KYC for CBDC on BBN-TESTNET
+## Deploying KYC for CBDC on BBN-TESTNET
 
 ## Setup details -
 
