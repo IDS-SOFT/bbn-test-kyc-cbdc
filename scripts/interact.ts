@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 dotenv.config(); // Load environment variables from .env file
 import { ethers } from "ethers";
 const hre = require("hardhat");
-const CBDC_kycJSON = require("./../artifacts/contracts/retail-cbdc.sol/CBDC_KYC.json");
+const CBDC_kycJSON = require("./../kyc_cbdc/artifacts/contracts/kyc_cbdc.sol/CBDC_KYC.json");
 
 const contractAddress: string = process.env.CONTRACT_ADDRESS || "";
 const contractABI: any[] = CBDC_kycJSON.abi;
