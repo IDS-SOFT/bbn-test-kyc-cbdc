@@ -1,4 +1,3 @@
-## Deploying KYC for CBDC on BBN-TESTNET
 
 ## Setup details -
 
@@ -10,9 +9,12 @@ npm install
 ```
 **2. Create a new .env file and write below configuration**
 
+```shell
+ACCOUNT_ADDRESS = "YOUR_ACCOUNT_ADDRESS"
 PRIVATE_KEY = "YOUR_PRIVATE_KEY"
 CONTRACT_ADDRESS = "YOUR_CONTRACT_ADDRESS"
 RPC_NODE_URL = "https://idspeer1.test.bharatblockchain.io:15021"
+```
 
 **3. Smart Contract Compile**
 
