@@ -16,7 +16,7 @@ contract CBDC_KYC {
 
     mapping(uint256 => KYCRequest) public kycRequests;
     uint256 public totalRequests;
-    event CheckBalance(string text, uint amount);
+    event CheckBalance(uint amount);
     
     modifier onlyOwner() {
         require(msg.sender == owner, "Only the CBDC authority can perform this action.");
@@ -65,11 +65,8 @@ contract CBDC_KYC {
     }
     
     function getBalance(address user_account) external returns (uint){
-    
-       string memory data = "User Balance is : ";
        uint user_bal = user_account.balance;
-       emit CheckBalance(data, user_bal );
+       emit CheckBalance(user_bal );
        return (user_bal);
-
     }
 }

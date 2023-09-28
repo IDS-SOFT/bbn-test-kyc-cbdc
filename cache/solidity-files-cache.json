@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/ayushraina/Desktop/IDS/testing/bbn-test-kyc-cbdc/contracts/kyc_cbdc.sol": {
+      "lastModificationDate": 1695912341867,
+      "contentHash": "f9f6e6fcaf21be5b30123ecdb67be443",
+      "sourceName": "contracts/kyc_cbdc.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "CBDC_KYC"
+      ]
+    }
+  }
+}
